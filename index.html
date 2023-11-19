@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <!-- Costom Css - link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font - link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Icon - link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="login-container">
+            <h1>Welcome back</h1>
+            <div class="login-with-buttons">
+                <button class="btn-1"><i class='bx bxl-google'></i> Log in with Google</button>
+                <button class="btn-2"><i class='bx bxl-apple' ></i> Log in with Apple</button>
+            </div>
+            <div class="line"></div>
+            <form>
+                <div class="mail-form flex">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="password-form flex">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="••••••••" required>
+                </div>
+                <div class="remender-forget">
+                    <div class="remember">
+                        <input type="checkbox" id="remember" checked="checked" required>
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <div class="forget">
+                        <a href="#">Forget password?</a>
+                    </div>
+                </div>
+                <div class="sign-in-button">
+                    <input class="btn" type="submit" value="Sign in to your account">
+                </div>
+                <p class="no-account">
+                    Don't have an account yet? <a href="./signup.html">Sign up here</a>
+                </p>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

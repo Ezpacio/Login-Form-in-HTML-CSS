@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-Form</title>
+    <!-- Costom Css - link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font - link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Icon - link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="login-container">
+            <h1>Welcome back</h1>
+            <div class="login-with-buttons">
+                <button class="btn-1"><i class='bx bxl-google'></i> Log in with Google</button>
+                <button class="btn-2"><i class='bx bxl-apple' ></i> Log in with Apple</button>
+            </div>
+            <div class="line"></div>
+            <form>
+                <div class="name-item flex">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="name" placeholder="Your name" required>
+                </div>
+                <div class="mail-item flex">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="password-item flex">
+                    <label for="password">Password</label>
+                    <input type="password" nsame="password" id="password" placeholder="••••••••" required>
+                </div>
+                <div class="confirm-item flex">
+                    <label for="confirm">Password confirm</label>
+                    <input type="password" name="confirm" id="confirm" placeholder="••••••••" required>
+                </div>
+                <div class="sign-in-button">
+                    <input class="btn" type="submit" value="Sign up">
+                </div>
+                <p class="no-account">
+                    Already have an account? <a href="./index.html">Login here</a>
+                </p>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
