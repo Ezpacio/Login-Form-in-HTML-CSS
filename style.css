@@ -213,6 +213,9 @@ a:hover{
     z-index: 1000;
     cursor: pointer;
 }
+.password-outer i:Active{
+    color: var(--text-color);
+}
 
 
 /*========== Media Queries ==========*/
