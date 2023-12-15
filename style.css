@@ -120,6 +120,7 @@ input {
     color: var(--text-color);
     font-weight: 400;
     transition: all ease .45s;
+    width: 100%;
 }
 
 input::placeholder{
@@ -199,6 +200,18 @@ input:focus-visible{
 
 a:hover{
     text-decoration: underline;
+}
+.password-outer{
+    position: relative;
+}
+
+.password-outer i{
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    color: var(--gary-color);
+    z-index: 1000;
+    cursor: pointer;
 }
 
 
